@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server server.json -p 3333"
+    "server": "json-server server.json -p 3333",
+    "commit": "cz"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +45,18 @@
     ]
   },
   "devDependencies": {
-    "json-server": "^0.16.3"
+    "@types/react-dom": "^18.2.7",
+    "@types/react-modal": "^3.16.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "json-server": "^0.16.3",
+    "typescript": "^5.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
